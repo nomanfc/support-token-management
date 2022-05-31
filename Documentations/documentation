@@ -1,0 +1,51 @@
+Project Documentation
+
+Support Token Management System
+
+Project Description: A “Support Token Management System”, also known as queue management
+system, is a software to manage crowd / queues efficiently by issuing tokens in customer-facing
+businesses and departments. It reduces wait times for customers and makes service smooth.
+A software company provides different types of software services to it’s customers. So keep tracking of
+customer services is very essential for a company. “Support Token Management System” plays a vital
+role in this situation. Using this software, authorized users can add token regarding software related
+issue. Then support team will work to fix that issue. User can also prioritize their issues for quick
+fixation. After solving the issue software team can mark that token as done.
+
+Modules: I’ve divided the whole software mainly in 4 modules.
+  1. Login module
+  2. Service module
+  3. Token module
+  4. User module
+
+1. Login module: This module will handle login system. Unauthorized users can not access the
+software.
+
+2. Service module: This module will handle the services a company provides. Admin can add
+new services , Edit existing services, disable a service.
+
+3. Token module: This module will handle all tokens issued by clients or admins. Authorized
+user can add a token, Admin or Super admin can edit or delete a token.
+
+4. User module: This module will handle all types of users. Users will have 4 types.
+  i. super admin  
+  ii. admin
+  iii. employee
+  iv. clients
+
+i. Super admin: Super admin will have all the accesses. Super admin will be able to add /
+delete / edit other admins, employees, clients and tokens. All the modules will be visible
+to super admin.
+
+ii. Admin: Admin will be able to add tokens, employees, clients and edit/delete them.
+
+iii. Employee: Employee will be able to add tokens and clients.
+
+iv. Client: Client will be able to add tokens.Database: There are 8 tables in the Database. These are:
+  ▪ categories
+  ▪ clients
+  ▪ departments
+  ▪ products
+  ▪ supports
+  ▪ team
+  ▪ tickets
+  ▪ users
