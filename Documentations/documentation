@@ -40,12 +40,15 @@ ii. Admin: Admin will be able to add tokens, employees, clients and edit/delete 
 
 iii. Employee: Employee will be able to add tokens and clients.
 
-iv. Client: Client will be able to add tokens.Database: There are 8 tables in the Database. These are:
-  ▪ categories
-  ▪ clients
-  ▪ departments
-  ▪ products
-  ▪ supports
-  ▪ team
-  ▪ tickets
-  ▪ users
+iv. Client: Client will be able to add tokens.
+
+Database: 
+  There are 8 tables in the Database. These are:
+    ▪ categories
+    ▪ clients
+    ▪ departments
+    ▪ products
+    ▪ supports
+    ▪ team
+    ▪ tickets
+    ▪ users
